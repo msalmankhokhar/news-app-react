@@ -1,0 +1,50 @@
+/* !important */
+html{
+    /* scroll-behavior: smooth; */
+}
+div.myCardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.myCardImg{
+    height: 270px;
+}
+.pageSpan{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    background-color: rgb(232, 232, 232);
+}
+#logoDiv{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+nav ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.navLink{
+    text-decoration: none;
+    color: black;
+}
+.navLink.currentLink{
+    font-weight: bold;
+    color: blue;
+}
