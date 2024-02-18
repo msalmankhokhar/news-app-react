@@ -18,7 +18,7 @@ div.myCardBody{
 }
 
 /* Navbar */
-nav{
+/* nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -43,7 +43,7 @@ nav ul{
 .navLink{
     text-decoration: none;
     color: black;
-}
+} */
 .navLink.currentLink{
     font-weight: bold;
     color: blue;
